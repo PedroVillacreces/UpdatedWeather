@@ -1,19 +1,23 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace UpdatedWeather
 {
+    using Xamarin.Forms;
+    using Views;
+
     public partial class App : Application
     {
+        #region Constructors
         public App()
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            this.MainPage = new NavigationPage(new AllCountries());
         }
+        #endregion
 
+        #region Methods
         protected override void OnStart()
         {
             // Handle when your app starts
@@ -27,6 +31,7 @@ namespace UpdatedWeather
         protected override void OnResume()
         {
             // Handle when your app resumes
-        }
+        } 
+        #endregion
     }
 }
