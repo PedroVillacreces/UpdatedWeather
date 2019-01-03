@@ -3,8 +3,6 @@
     using System.Collections.Generic;
     public class Countries
     {
-        public class Example
-        {
             public string Name { get; set; }
             public IList<string> TopLevelDomain { get; set; }
             public string Alpha2Code { get; set; }
@@ -28,7 +26,6 @@
             public Translations Translations { get; set; }
             public string Flag { get; set; }
             public IList<RegionalBloc> RegionalBlocs { get; set; }
-            public string Cioc { get; set; }
-        }
+            public string Cioc { get; set; }        
     }
 }
