@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:infrastructure="clr-namespace: UpdatedWeather.Infrastructure"
+             xmlns:infrastructure="clr-namespace:UpdatedWeather.Infrastructure"             
              x:Class="UpdatedWeather.App">
     <Application.Resources>
         <ResourceDictionary>
-            <infrastructure:InstanceLocator x:Key="Locator"/>
+            <infrastructure:InstanceLocator x:Key="Locator">
+            </infrastructure:InstanceLocator>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

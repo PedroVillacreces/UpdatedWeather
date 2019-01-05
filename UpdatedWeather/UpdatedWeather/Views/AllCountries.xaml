@@ -8,11 +8,14 @@
         <ScrollView>
         <StackLayout
             Padding="20">
+                <ListView>
+                    
+                </ListView>
                 <Label
                     FontSize="Large"
                     HorizontalTextAlignment="Center"
                     FontAttributes="Bold"
-                    Text="Country Weather">                    
+                    Text="Country Pope">                    
                 </Label>
         </StackLayout>
         </ScrollView>

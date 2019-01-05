@@ -1,6 +1,7 @@
 ﻿using Xamarin.Forms.Xaml;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
+
 namespace UpdatedWeather
 {
     using Xamarin.Forms;
